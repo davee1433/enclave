@@ -1,0 +1,92 @@
+.logo-img {
+    height: 50px;
+}
+
+.hero {
+    text-align: center;
+    padding: 10vw 5%;
+    background-color: transparent;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 6vw;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.hero p {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #000;
+    color: white; 
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+.featured-images {
+    text-align: center;
+    padding: 5vw 5%;
+    background-color: #f9f9f9;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.featured-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.featured-images h2 {
+    font-size: 4vw;
+    color: #333;
+}
+
+.featured-images p {
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 8vw;
+    }
+
+    .hero p {
+        font-size: 3vw;
+    }
+
+    .btn {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .featured-images h2 {
+        font-size: 6vw;
+    }
+
+    .featured-image {
+        max-width: 90%;
+    }
+}

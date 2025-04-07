@@ -1,0 +1,84 @@
+.logo-img {
+    height: 50px;
+}
+
+.hero {
+    text-align: center;
+    padding: 10vw 5%;
+    background-color: transparent;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 6vw;
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.hero p {
+    font-size: 2rem;
+    color: #fff;
+}
+
+.contact-info {
+    text-align: center;
+    padding: 5vw 5%;
+    background-color: #f9f9f9;
+}
+
+.contact-info h2 {
+    font-size: 4vw;
+    color: #333;
+}
+
+.contact-info p {
+    margin: 10px 0;
+}
+
+.contact-info ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin: 5px 0;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+
+@media (max-width: 600px) {
+    .hero h1 {
+        font-size: 8vw;
+    }
+
+    .hero p {
+        font-size: 3vw;
+    }
+
+    .contact-info h2 {
+        font-size: 6vw;
+    }
+
+    .btn {
+        display: block;
+        width: 100%;
+        margin: 10px 0;
+    }
+}

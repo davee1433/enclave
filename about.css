@@ -1,0 +1,193 @@
+
+.about-us {
+    padding: 5vw 4%;
+    text-align: center;
+    background-color: transparent;
+}
+
+.about-us h1 {
+    font-size: 3vw;
+    margin-bottom: 2rem;
+    font-weight: 1000;
+    color: #ffd700;
+}
+
+.about-us p {
+    display: inline;
+    position: relative;
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin: 1rem 0;
+    font-weight: 1000;
+    color: #ffffff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.about-us p:hover {
+    background-color: white;
+    color: black;
+    transform: scale(1.05);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+h3 {
+    padding-left: 10rem;
+    margin-top: 5rem;
+    
+}
+.PROFILE-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 4rem;
+    padding: 0 4%;
+}
+
+.profile {
+    text-align: center;
+    color: white;
+}
+
+.profile img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    margin-bottom: 1rem;
+}
+
+.profile h2, p {
+    color: white;
+}
+
+.profile h2:hover {
+    color: yellow;
+}
+
+.vision-mission {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 1.5rem;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.vision-mission h3 {
+    margin-top: 0;
+    font-size: 1.5rem;
+    color: #ffd700;
+}
+
+
+.travel-pictures {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.profilepictures {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 15px;
+    max-width: 100%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.profilepictures img {
+    width: 100%; 
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+
+.travel-videos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.travel-videos div {
+    width: 25%;
+}
+
+.travel-videos video {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .about-us {
+        padding: 6vw 5%;
+    }
+
+    .about-us h1 {
+        font-size: 8vw;
+    }
+
+    .about-us p {
+        font-size: 1rem;
+    }
+    .profilepictures {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .travel-videos {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .travel-videos div {
+        width: 100%;
+    }
+    .PROFILE-section {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .about-us {
+        padding: 5vw 5%;
+    }
+
+    .about-us h1 {
+        font-size: 7vw;
+    }
+
+    .about-us p {
+        font-size: 1.1rem;
+    }
+    .profilepictures {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+
+    .travel-videos div {
+        width: 45%;
+    }
+}
+
+@media screen and (min-width: 901px) {
+   
+    .profilepictures {
+        grid-template-columns: repeat(7, 1fr);
+    }
+
+
+    .travel-videos div {
+        width: 25%;
+    }
+}
